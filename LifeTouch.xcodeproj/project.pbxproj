@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E28872291FAAE69A00C87441 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E28872281FAAE69A00C87441 /* AppDelegate.m */; };
+		E288722C1FAAE69A00C87441 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E288722B1FAAE69A00C87441 /* ViewController.m */; };
+		E288722F1FAAE69A00C87441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E288722D1FAAE69A00C87441 /* Main.storyboard */; };
+		E28872311FAAE69A00C87441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28872301FAAE69A00C87441 /* Assets.xcassets */; };
+		E28872341FAAE69A00C87441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28872321FAAE69A00C87441 /* LaunchScreen.storyboard */; };
+		E28872371FAAE69A00C87441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E28872361FAAE69A00C87441 /* main.m */; };
+		E28872411FAAE69B00C87441 /* LifeTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E28872401FAAE69B00C87441 /* LifeTouchTests.m */; };
+		E288724C1FAAE69B00C87441 /* LifeTouchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E288724B1FAAE69B00C87441 /* LifeTouchUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E288723D1FAAE69B00C87441 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E288721C1FAAE69A00C87441 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E28872231FAAE69A00C87441;
+			remoteInfo = LifeTouch;
+		};
+		E28872481FAAE69B00C87441 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E288721C1FAAE69A00C87441 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E28872231FAAE69A00C87441;
+			remoteInfo = LifeTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E28872241FAAE69A00C87441 /* LifeTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28872271FAAE69A00C87441 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E28872281FAAE69A00C87441 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E288722A1FAAE69A00C87441 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E288722B1FAAE69A00C87441 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E288722E1FAAE69A00C87441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E28872301FAAE69A00C87441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E28872331FAAE69A00C87441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E28872351FAAE69A00C87441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28872361FAAE69A00C87441 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E288723C1FAAE69B00C87441 /* LifeTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28872401FAAE69B00C87441 /* LifeTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeTouchTests.m; sourceTree = "<group>"; };
+		E28872421FAAE69B00C87441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28872471FAAE69B00C87441 /* LifeTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E288724B1FAAE69B00C87441 /* LifeTouchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeTouchUITests.m; sourceTree = "<group>"; };
+		E288724D1FAAE69B00C87441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E28872211FAAE69A00C87441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28872391FAAE69B00C87441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28872441FAAE69B00C87441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E288721B1FAAE69A00C87441 = {
+			isa = PBXGroup;
+			children = (
+				E28872261FAAE69A00C87441 /* LifeTouch */,
+				E288723F1FAAE69B00C87441 /* LifeTouchTests */,
+				E288724A1FAAE69B00C87441 /* LifeTouchUITests */,
+				E28872251FAAE69A00C87441 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E28872251FAAE69A00C87441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E28872241FAAE69A00C87441 /* LifeTouch.app */,
+				E288723C1FAAE69B00C87441 /* LifeTouchTests.xctest */,
+				E28872471FAAE69B00C87441 /* LifeTouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E28872261FAAE69A00C87441 /* LifeTouch */ = {
+			isa = PBXGroup;
+			children = (
+				E28872271FAAE69A00C87441 /* AppDelegate.h */,
+				E28872281FAAE69A00C87441 /* AppDelegate.m */,
+				E288722A1FAAE69A00C87441 /* ViewController.h */,
+				E288722B1FAAE69A00C87441 /* ViewController.m */,
+				E288722D1FAAE69A00C87441 /* Main.storyboard */,
+				E28872301FAAE69A00C87441 /* Assets.xcassets */,
+				E28872321FAAE69A00C87441 /* LaunchScreen.storyboard */,
+				E28872351FAAE69A00C87441 /* Info.plist */,
+				E28872361FAAE69A00C87441 /* main.m */,
+			);
+			path = LifeTouch;
+			sourceTree = "<group>";
+		};
+		E288723F1FAAE69B00C87441 /* LifeTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				E28872401FAAE69B00C87441 /* LifeTouchTests.m */,
+				E28872421FAAE69B00C87441 /* Info.plist */,
+			);
+			path = LifeTouchTests;
+			sourceTree = "<group>";
+		};
+		E288724A1FAAE69B00C87441 /* LifeTouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E288724B1FAAE69B00C87441 /* LifeTouchUITests.m */,
+				E288724D1FAAE69B00C87441 /* Info.plist */,
+			);
+			path = LifeTouchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E28872231FAAE69A00C87441 /* LifeTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28872501FAAE69B00C87441 /* Build configuration list for PBXNativeTarget "LifeTouch" */;
+			buildPhases = (
+				E28872201FAAE69A00C87441 /* Sources */,
+				E28872211FAAE69A00C87441 /* Frameworks */,
+				E28872221FAAE69A00C87441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeTouch;
+			productName = LifeTouch;
+			productReference = E28872241FAAE69A00C87441 /* LifeTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E288723B1FAAE69B00C87441 /* LifeTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28872531FAAE69B00C87441 /* Build configuration list for PBXNativeTarget "LifeTouchTests" */;
+			buildPhases = (
+				E28872381FAAE69B00C87441 /* Sources */,
+				E28872391FAAE69B00C87441 /* Frameworks */,
+				E288723A1FAAE69B00C87441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E288723E1FAAE69B00C87441 /* PBXTargetDependency */,
+			);
+			name = LifeTouchTests;
+			productName = LifeTouchTests;
+			productReference = E288723C1FAAE69B00C87441 /* LifeTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E28872461FAAE69B00C87441 /* LifeTouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28872561FAAE69B00C87441 /* Build configuration list for PBXNativeTarget "LifeTouchUITests" */;
+			buildPhases = (
+				E28872431FAAE69B00C87441 /* Sources */,
+				E28872441FAAE69B00C87441 /* Frameworks */,
+				E28872451FAAE69B00C87441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E28872491FAAE69B00C87441 /* PBXTargetDependency */,
+			);
+			name = LifeTouchUITests;
+			productName = LifeTouchUITests;
+			productReference = E28872471FAAE69B00C87441 /* LifeTouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E288721C1FAAE69A00C87441 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Kevin Chen";
+				TargetAttributes = {
+					E28872231FAAE69A00C87441 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					E288723B1FAAE69B00C87441 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E28872231FAAE69A00C87441;
+					};
+					E28872461FAAE69B00C87441 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E28872231FAAE69A00C87441;
+					};
+				};
+			};
+			buildConfigurationList = E288721F1FAAE69A00C87441 /* Build configuration list for PBXProject "LifeTouch" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E288721B1FAAE69A00C87441;
+			productRefGroup = E28872251FAAE69A00C87441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E28872231FAAE69A00C87441 /* LifeTouch */,
+				E288723B1FAAE69B00C87441 /* LifeTouchTests */,
+				E28872461FAAE69B00C87441 /* LifeTouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E28872221FAAE69A00C87441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28872341FAAE69A00C87441 /* LaunchScreen.storyboard in Resources */,
+				E28872311FAAE69A00C87441 /* Assets.xcassets in Resources */,
+				E288722F1FAAE69A00C87441 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E288723A1FAAE69B00C87441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28872451FAAE69B00C87441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E28872201FAAE69A00C87441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E288722C1FAAE69A00C87441 /* ViewController.m in Sources */,
+				E28872371FAAE69A00C87441 /* main.m in Sources */,
+				E28872291FAAE69A00C87441 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28872381FAAE69B00C87441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28872411FAAE69B00C87441 /* LifeTouchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28872431FAAE69B00C87441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E288724C1FAAE69B00C87441 /* LifeTouchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E288723E1FAAE69B00C87441 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E28872231FAAE69A00C87441 /* LifeTouch */;
+			targetProxy = E288723D1FAAE69B00C87441 /* PBXContainerItemProxy */;
+		};
+		E28872491FAAE69B00C87441 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E28872231FAAE69A00C87441 /* LifeTouch */;
+			targetProxy = E28872481FAAE69B00C87441 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E288722D1FAAE69A00C87441 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E288722E1FAAE69A00C87441 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E28872321FAAE69A00C87441 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E28872331FAAE69A00C87441 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E288724E1FAAE69B00C87441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E288724F1FAAE69B00C87441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E28872511FAAE69B00C87441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93KPP6N3A7;
+				INFOPLIST_FILE = LifeTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Accentrix.LifeTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E28872521FAAE69B00C87441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93KPP6N3A7;
+				INFOPLIST_FILE = LifeTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Accentrix.LifeTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E28872541FAAE69B00C87441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93KPP6N3A7;
+				INFOPLIST_FILE = LifeTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Accentrix.LifeTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeTouch.app/LifeTouch";
+			};
+			name = Debug;
+		};
+		E28872551FAAE69B00C87441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93KPP6N3A7;
+				INFOPLIST_FILE = LifeTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Accentrix.LifeTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeTouch.app/LifeTouch";
+			};
+			name = Release;
+		};
+		E28872571FAAE69B00C87441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93KPP6N3A7;
+				INFOPLIST_FILE = LifeTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Accentrix.LifeTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LifeTouch;
+			};
+			name = Debug;
+		};
+		E28872581FAAE69B00C87441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93KPP6N3A7;
+				INFOPLIST_FILE = LifeTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Accentrix.LifeTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LifeTouch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E288721F1FAAE69A00C87441 /* Build configuration list for PBXProject "LifeTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E288724E1FAAE69B00C87441 /* Debug */,
+				E288724F1FAAE69B00C87441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28872501FAAE69B00C87441 /* Build configuration list for PBXNativeTarget "LifeTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28872511FAAE69B00C87441 /* Debug */,
+				E28872521FAAE69B00C87441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28872531FAAE69B00C87441 /* Build configuration list for PBXNativeTarget "LifeTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28872541FAAE69B00C87441 /* Debug */,
+				E28872551FAAE69B00C87441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28872561FAAE69B00C87441 /* Build configuration list for PBXNativeTarget "LifeTouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28872571FAAE69B00C87441 /* Debug */,
+				E28872581FAAE69B00C87441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E288721C1FAAE69A00C87441 /* Project object */;
+}
